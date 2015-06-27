@@ -1,0 +1,491 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600%7CLato);
+body {
+    margin: 0;
+    font-family: Source Sans Pro;
+    -webkit-font-smoothing: antialiased;
+    background-color: #700
+}
+.container {
+    width: 600px;
+    margin: 0 auto
+}
+.center {
+    text-align: center
+}
+.clearfix {
+    clear: both
+}
+.content {
+    padding: 100px 0;
+    background-color: #fff
+}
+.content .title {
+    font-size: 34pt
+}
+.content .description {
+    margin-top: 50px
+}
+.contrast {
+    background-color: #008902
+}
+.contrast .title {
+    color: #fff
+}
+.contrast .description {
+    color: #fff
+}
+.contrast .text p {
+    color: #fff
+}
+.contrast .text p a {
+    color: #fff;
+    font-weight: bold
+}
+.contrast .button {
+    background: #700;
+    border-color: #fff;
+    color: #fff
+}
+.contrast .button:hover {
+    background: #fff;
+    color: #700
+}
+.contrast .reference .title {
+    color: white;
+    color: #fff
+}
+.contrast .reference .date {
+    color: #fff
+}
+.contrast .reference .headline {
+    color: #fff
+}
+.contrast .reference .description {
+    color: #fff
+}
+.contrast .skill-progress .title {
+    font-weight: normal;
+    color: #fff
+}
+.contrast .skill-progress .label {
+    color: white
+}
+.contrast .skill-progress .description {
+    color: #fff
+}
+.contrast .skill-progress .progress-container {
+    background-color: #014D02
+}
+.contrast .skill-progress .progress {
+    background-color: #00CC29
+}
+.contrast .skills .title {
+    color: #fff
+}
+.contrast .skills .domain {
+    color: #fff
+}
+.contrast .tag {
+    border: 1px solid #fff;
+    color: #fff
+}
+.content.avatar-space {
+    padding: 100px 0 200px 0
+}
+header {
+    position: relative;
+    background-color: black;
+    height: 100vh
+}
+header canvas#matrix {
+    display: block;
+    width: 100%;
+    height: 100%
+}
+header nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 40px
+}
+header nav .logo {
+    float: left;
+    height: 40px;
+    width: 200px;
+    background: url('logo.png') no-repeat left top;
+    background-size: 200px;
+}
+header nav .button {
+    float: right;
+    color: white
+}
+header article {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    clear: both;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 40px;
+    text-align: center
+}
+header article .title {
+    font-size: 46pt;
+    color: white
+}
+header article .description {
+    color: #fff;
+    font-size: 18pt;
+    width: 600px;
+    margin: 40px auto 0 auto
+}
+footer {
+    background-color: #008902;
+    padding: 40px 0;
+    text-align: center;
+    padding-top: 0px;
+}
+footer .icon {
+    background: url('logo_small.png') no-repeat center top;
+    height: 55px;
+    padding-bottom: 30px;
+}
+footer .copyright {
+    color: #fff;
+    font-size: 12pt
+}
+footer .legal-disclosure {
+    margin-top: 20px
+}
+footer .legal-disclosure a {
+    color: #fff;
+    font-weight: bold
+}
+a {
+    color: #c00
+}
+.title {
+    font-family: 'Lato';
+    color: #008902
+}
+.button {
+    display: inline-block;
+    outline: 0;
+    border: 2px solid #00CC29;
+    border-radius: 5px;
+    padding: 10px 35px;
+    cursor: pointer;
+    background-color: transparent;
+    color: #c00;
+    font-weight: bold;
+    font-size: 14pt;
+    text-decoration: none;
+    transition: background .3s
+}
+.button:hover {
+    background-color: #00CC29;
+    color: #fff
+}
+.button.nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 40px
+}
+.description {
+    font-size: 20pt;
+    color: #300
+}
+.text {
+    line-height: 30px;
+    margin-top: 50px
+}
+.text p {
+    font-size: 14pt;
+    color: #300
+}
+.text a {
+    font-weight: bold
+}
+.reference {
+    line-height: 30px;
+    margin-top: 100px
+}
+.reference .title {
+    font-size: 20pt;
+    font-weight: bold
+}
+.reference .date {
+    color: #300
+}
+.reference .headline {
+    margin-top: 10px;
+    font-size: 15pt;
+    font-weight: bold;
+    color: #c00
+}
+.reference .description {
+    margin-top: 0;
+    font-size: 14pt;
+    margin-bottom: 10px
+}
+.description+.skill-progress {
+    margin-top: 50px
+}
+.skill-progress .description>p {
+    padding-bottom: 20px
+}
+.skill-progress {
+    margin-top: 30px
+}
+.skill-progress .title {
+    font-size: 14pt;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #300
+}
+.skill-progress .progress-container {
+    height: 15px;
+    border-radius: 5px;
+    width: 80%;
+    float: left;
+    background-color: #fff
+}
+.skill-progress .progress {
+    height: 100%;
+    transition: width .6s ease;
+    border-radius: 5px;
+    width: 0;
+    background-color: #00CC29
+}
+.skill-progress .label {
+    font-size: 14pt;
+    float: right;
+    color: black
+}
+.skill-progress .description {
+    clear: both;
+    width: 80%;
+    margin-top: 0;
+    font-size: 12pt;
+    color: #300
+}
+.skill-progress .description p {
+    margin: 0 0 5px 0
+}
+.skill-progress .description p:last-child {
+    margin: 0
+}
+.skills {
+    line-height: 30px;
+    margin-top: 50px
+}
+.skills .title {
+    color: #300;
+    font-size: 20pt;
+    font-weight: bold
+}
+.skills .domain {
+    color: #008902;
+    font-size: 14pt;
+    margin: 10px 0 5px 0;
+    font-weight: bold
+}
+.tag {
+    font-size: 12pt;
+    display: inline-block;
+    border: 1px solid #300;
+    border-radius: 4px;
+    padding: 2px 15px;
+    margin-right: 8px;
+    margin-bottom: 10px;
+    background-color: transparent;
+    color: #300
+}
+.avatar {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 2px solid #700;
+    background: #fff url('rs.png') no-repeat center bottom;
+    background-size: 180px;
+    margin: -200px 0 100px 0
+}
+form {
+    position: relative
+}
+form input,
+form textarea {
+    font-family: 'Roboto', sans-serif;
+    line-height: 40px;
+    font-size: 1em;
+    width: 100%;
+    outline: 0;
+    border: 0;
+    border-bottom: 1px solid #d4d2e3
+}
+form textarea {
+    resize: none;
+    border-bottom: 0
+}
+form button {
+    display: inline-block;
+    outline: 0;
+    border: 2px solid #c00;
+    border-radius: 5px;
+    padding: 10px 35px;
+    cursor: pointer;
+    background-color: transparent;
+    color: #c00;
+    font-weight: bold;
+    font-size: 14pt;
+    text-decoration: none;
+    transition: background .3s;
+    width: 100%;
+    background-color: #c00;
+    color: #fff
+}
+form button:hover {
+    background-color: #c00;
+    color: #fff
+}
+form button:hover {
+    border: 2px solid #700;
+    background-color: #700;
+    color: #fff
+}
+form .field {
+    padding: 10px 0 10px 50px;
+    position: relative
+}
+form .field.name {
+    background: url('fname.svg') no-repeat left top 20px
+}
+form .field.email {
+    background: url('fmail.svg') no-repeat left top 20px
+}
+form .field.message {
+    background: url('fmsg.svg') no-repeat left top 20px
+}
+form .invalid {
+    color: #c00;
+    font-weight: bold
+}
+form .valid {
+    position: absolute;
+    top: 20px;
+    right: 0;
+    height: 24px;
+    width: 24px;
+    background: url('tick.svg') no-repeat right top
+}
+form .wrap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0
+}
+form .wrap.transparency {
+    z-index: 1;
+    background: rgba(255, 255, 255, 0.8)
+}
+form .wrap.loading {
+    z-index: 1;
+    background: transparent url('loader.svg') no-repeat center center
+}
+form .wrap.notify {
+    border-radius: 5px;
+    z-index: 1;
+    padding: 320px 100px 100px 100px
+}
+form .wrap.notify p {
+    text-align: center;
+    color: #300;
+    font-size: 16pt
+}
+form .wrap.notify.success {
+    background: white url('fsuccess.svg') no-repeat center center;
+    background-size: 128px
+}
+form .wrap.notify.error {
+    background: white url('ferror.svg') no-repeat center center;
+    background-size: 128px
+}
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+    header {
+        background: url('bg.jpg') no-repeat
+    }
+    header canvas#matrix {
+        display: none
+    }
+    header nav {
+        margin: 20px
+    }
+    header article {
+        margin: 20px
+    }
+    header article .title {
+        font-size: 32pt
+    }
+    header article .description {
+        font-size: 16pt;
+        width: 80%
+    }
+    .container {
+        margin: 20px;
+        width: auto
+    }
+    .content {
+        padding: 30px 0
+    }
+    .content .title {
+        font-size: 28pt;
+        text-align: center
+    }
+    .reference .title {
+        font-size: 20pt;
+        text-align: left
+    }
+    .skill-progress .title {
+        font-size: 14pt;
+        text-align: left
+    }
+    .skills .title {
+        font-size: 20pt;
+        text-align: left
+    }
+    .skill-item .description {
+        width: 70%
+    }
+    .skill-item .progress-container {
+        width: 70%
+    }
+    .content.avatar-space {
+        padding: 30px 0 150px 0
+    }
+    .avatar {
+        margin: -150px auto 50px auto
+    }
+    .sm-title {
+        margin-top: 50px;
+        text-align: center
+    }
+    .sm-icons {
+        text-align: center
+    }
+    .text {
+        text-align: center
+    }
+    .button.nav {
+        margin: 20px
+    }
+}
